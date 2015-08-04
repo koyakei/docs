@@ -95,7 +95,7 @@ URLが特定されたら、一致したときに同様な動作をするかを `
 CakePHP によってあらかじめ作られている routes.php ファイルでこのルーティングは見つけられます。
 このルートは ``/pages/`` ではじまるすべてのURLに一致し、それを
 ``PagesController();`` の ``display()`` アクションに渡します。
-この場合、 /pages/products へのリクエストは、 ``PagesController->display('products')`` に送られます。.
+この場合、 /pages/products へのリクエストは、 ``PagesController->display('products')`` に送られます。
 
 加えて、``/*``　を **greedy star** , ``/**`` を流れ星( **trailing star**)といいます。
 二つのアスタリスクの流れ星で値を一つ渡すURLを表現します。
@@ -114,8 +114,7 @@ CakePHP によってあらかじめ作られている routes.php ファイルで
      2.1　で　``/**`` は追加されました。
 
 :php:meth:`Router::connect()` の第二引数は ルートの
-初期値から構成されているすべての引数を生成するために使えます。
-::
+初期値から構成されているすべての引数を生成するために使えます。::
 
     Router::connect(
         '/government',
@@ -124,7 +123,7 @@ CakePHP によってあらかじめ作られている routes.php ファイルで
 
 この例では、 ``connect()`` の第２引き数をデフォルトの値を定義するために使う方法を示しています。
 もし、いろいろなカテゴリの製品を顧客に対して提供するサイトを作るのであれば、ルーティングすることを考えるべきです。
-この例では、 ``/pages/display/5`` にアクセするために ``/government``  がURLとして使えます。。
+この例では、 ``/pages/display/5`` にアクセするために ``/government``  がURLとして使えます。
 
 .. note::
 
