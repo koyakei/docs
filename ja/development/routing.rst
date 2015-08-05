@@ -773,7 +773,7 @@ URLを文字列によって以下のように生成します。::
 
     Router::redirect('/posts/*', 'http://google.com', array('status' => 302));
 
-これは、 ``/posts/*`` から ``http://google.com`` へwith a
+これは、 ``/posts/*`` から ``http://google.com`` へ
 HTTP  302　ステータスを出しながらリダイレクトさせます。
 
 .. _disabling-default-routes:
